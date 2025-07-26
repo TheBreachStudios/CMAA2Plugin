@@ -18,11 +18,11 @@ Enable CMAA2 with `r.CMAA2.Enable 1`
 | r.CMAA2.Debug | 0 | Set to 1 to enable debug visualization of detected edges. |
 
 ## Tested engine versions
-✅ Unreal Engine 4.27.2
-✅ Unreal Engine 5.0.3
-✅ Unreal Engine 5.1.3
-✅ Unreal Engine 5.2.1
-✅ Unreal Engine 5.3.2
-✅ Unreal Engine 5.4.4
-✅ Unreal Engine 5.5.4
-✅ Unreal Engine 5.6.0
+  ✅ Unreal Engine 4.27.2  
+  ✅ Unreal Engine 5.0.3  
+  ✅ Unreal Engine 5.1.3  
+  ✅ Unreal Engine 5.2.1  
+  ✅ Unreal Engine 5.3.2  
+  ✅ Unreal Engine 5.4.4  
+  ✅ Unreal Engine 5.5.4  
+  ✅ Unreal Engine 5.6.0  
