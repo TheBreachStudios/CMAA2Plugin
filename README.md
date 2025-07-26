@@ -26,4 +26,4 @@ Enable CMAA2 with `r.CMAA2.Enable 1`
   ✅ Unreal Engine 5.4.4  
   ✅ Unreal Engine 5.5.4  
   ✅ Unreal Engine 5.6.0   
-  ❓ Should probaly work on every patch in between, untested
+  ❓ Should probably work on every patch in between, untested
