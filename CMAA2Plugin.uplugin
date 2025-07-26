@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "CMAA2 Anti-Aliasing",
+	"Description": "Integrates Intel's Conservative Morphological Anti-Aliasing (CMAA2) as a post-processing anti-aliasing method. To use, set r.AntiAliasingMethod=0 and r.CMAA2.Enable=1.",
+	"Category": "Rendering",
+	"CreatedBy": "Maksym Paziuk",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CMAA2Plugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}
