@@ -6,7 +6,7 @@
 	"Description": "Integrates Intel's Conservative Morphological Anti-Aliasing (CMAA2) as a post-processing anti-aliasing method. To use, set r.AntiAliasingMethod=0 and r.CMAA2.Enable=1.",
 	"Category": "Rendering",
 	"CreatedBy": "Maksym Paziuk",
-	"CreatedByURL": "",
+	"CreatedByURL": "https://github.com/virus-on/CMAA2Plugin",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
