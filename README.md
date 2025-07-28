@@ -66,5 +66,5 @@ Additionally you can balance CMAA2 quality and performance by adjusting the `CMA
 # Credits and License
 - Plugin Author: Maksym Paziuk and contributors.
 - Original Algorithm: This plugin is based on the [official CMAA2 implementation by Intel Corporation](https://github.com/GameTechDev/CMAA2).  
-This plugin is released under the [MIT License](https://opensource.org/license/mit). See the LICENSE file for more details.
-   The original CMAA2 source code from Intel is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+- This plugin is released under the [MIT License](https://opensource.org/license/mit). See the LICENSE file for more details.   
+- The original CMAA2 source code from Intel is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
