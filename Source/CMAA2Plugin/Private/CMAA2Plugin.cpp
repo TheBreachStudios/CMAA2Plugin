@@ -46,10 +46,10 @@ public:
 				return;
 			}
 
-			FRDGTextureDesc OutputDesc = SceneColor.Texture->Desc;
-			OutputDesc.Flags |= TexCreate_UAV;
+			// FRDGTextureDesc OutputDesc = SceneColor.Texture->Desc;
+			// OutputDesc.Flags |= TexCreate_UAV;
 			// ToDo: Figure out a way to work with Input/Output.Texture in place
-			FRDGTextureRef OutputTexture = GraphBuilder.CreateTexture(OutputDesc, TEXT("CMAA2.FinalOutput"));
+			// FRDGTextureRef OutputTexture = GraphBuilder.CreateTexture(OutputDesc, TEXT("CMAA2.FinalOutput"));
 
 			if (View.AntiAliasingMethod == AAM_None)
 			{
