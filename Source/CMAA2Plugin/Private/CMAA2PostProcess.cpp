@@ -51,7 +51,7 @@ struct FUintVector2 {
 
 namespace CMAA2
 {
-	int32 GEnable = 0;
+	int32 GEnable = 1;
 	static FAutoConsoleVariableRef CVarEnableCMAA2(
 		TEXT("r.CMAA2.Enable"),
 		GEnable,
