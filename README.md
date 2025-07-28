@@ -8,7 +8,6 @@ Integrates Intel's Conservative Morphological Anti-Aliasing v2.0 (CMAA2) as a po
   
 ## Features
 - **High-Quality Anti-Aliasing**: Implements the full CMAA2 algorithm for effective edge smoothing.
-- **High Performance**: Offers a significant performance improvement over temporal anti-aliasing methods.
 - **Configurable Quality**: Comes with four distinct quality presets (Low, Medium, High, Ultra) to balance performance and visual fidelity.
 - **Sharpness Control**: Includes an option to enhance sharpness, preserving fine details in textures and text.
 - **Debug Visualization**: A built-in debug mode allows you to visualize the edges detected by the algorithm in real-time.
