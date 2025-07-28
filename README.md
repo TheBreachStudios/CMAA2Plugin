@@ -41,7 +41,8 @@ r.CMAA2.Enable=1
 
 ## Configuration
 CMAA2 can be configured at runtime using the following console variables:   
-| Console Variable    | Description | Values | Default |  
+| Console Variable    | Description | Values | Default |
+| -------- | ------- | -------- | ------- |
 | `r.CMAA2.Enable`    | Globally enables or disables the CMAA2 effect. Remember, r.AntiAliasingMethod must be 0 for this to work. | 0: Disabled<br> 1: Enabled | 1 |  
 | `r.CMAA2.Quality`   | Adjusts the quality preset. Higher presets improve edge detection and smoothing at a minor performance cost. | 0: Low<br> 1: Medium<br> 2: High<br> 3: Ultra | 2 |  
 | `r.CMAA2.ExtraSharpness`  | Increases the sharpness of the final image, preserving more detail at the expense of less aliasing reduction. | 0: Disabled<br>1: Enabled | 0 |  
