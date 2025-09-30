@@ -167,7 +167,7 @@ class FCMAA2ProcessCandidatesCS : public FCMAA2Shader
 	BEGIN_SHADER_PARAMETER_STRUCT(FParameters, )
 		SHADER_PARAMETER_RDG_TEXTURE_SRV(Texture2D, g_inoutColorReadonly)
 		SHADER_PARAMETER_RDG_TEXTURE_UAV(RWTexture2D<uint>, g_workingEdges)
-		SHADER_PARAMETER_RDG_BUFFER_UAV(StructuredBuffer<uint>, g_workingShapeCandidates)
+		SHADER_PARAMETER_RDG_BUFFER_UAV(RWStructuredBuffer<uint>, g_workingShapeCandidates)
 		SHADER_PARAMETER_RDG_BUFFER_UAV(RWByteAddressBuffer, g_workingControlBuffer)
 		SHADER_PARAMETER_RDG_TEXTURE_UAV(RWTexture2D<uint>, g_workingDeferredBlendItemListHeads)
 		SHADER_PARAMETER_RDG_BUFFER_UAV(RWStructuredBuffer<uint2>, g_workingDeferredBlendItemList)
